@@ -504,9 +504,10 @@ adb logcat -s BedrockProxy RakNetJNI
 
 ## Próximos pasos inmediatos
 
-1. Instalar **1.5.0** (`/home/majhrs16/BedrockProxy-1.5.0.apk`) y probar primero
-   en **Wi-Fi normal** (no hotspot), con el Switch y el teléfono en la misma red
-   y sin aislamiento de clientes. El APK creció a ~33 MB por WebRTC.
+1. Compilar **1.5.0** (`./gradlew :app:assembleDebug`) e instalar el APK desde
+   `app/build/outputs/apk/debug/app-debug.apk`; probar primero en **Wi-Fi normal**
+   (no hotspot), con el Switch y el teléfono en la misma red y sin aislamiento
+   de clientes. El APK creció a ~33 MB por WebRTC.
 2. Verificar que el servidor remoto responde en **RakNet** (`IP:19132`). El log
    no debe mostrar `Sin ping de …` antes de probar. Este puente no conecta a un
    remoto NetherNet-only.

@@ -185,13 +185,12 @@ JAVA_HOME=/opt/javac/x64/21 ./gradlew :app:assembleDebug
 > El código nativo se compila en **C++14**: RakNet 4.081 usa `register`
 > (`Rand.cpp`), que es error en C++17. No subas el estándar sin parchear RakNet.
 
-El APK queda en:
+El APK queda en la ruta estándar de Gradle:
 
-- `app/build/outputs/apk/debug/app-debug.apk`
-- `app/build/outputs/apk/release/app-release.apk`
+- Debug: `app/build/outputs/apk/debug/app-debug.apk`
+- Release: `app/build/outputs/apk/release/app-release.apk`
 
-Además, cada `assembleDebug`/`assembleRelease` copia automáticamente el APK a
-`$HOME/BedrockProxy-<versión>.apk` (o `-release` para release).
+No se copia a `$HOME` ni a ninguna ruta externa al proyecto.
 
 ### Compilar solo la parte nativa
 
