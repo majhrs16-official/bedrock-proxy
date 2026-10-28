@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Tema base del sistema: siempre oscuro.
+        Los colores reales de la interfaz se definen en Compose (ui/theme/Theme.kt).
+    -->
+    <style name="Theme.BedrockProxy" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorAccent">@color/app_primary</item>
+    </style>
+</resources>

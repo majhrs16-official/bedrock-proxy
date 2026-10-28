@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bedrock Proxy</string>
+    <string name="action_stop">Detener</string>
+
+    <string name="notification_channel_name">Proxy de Bedrock</string>
+    <string name="notification_channel_desc">Mantiene el proxy activo en segundo plano</string>
+    <string name="notification_running">Escuchando en el puerto %1$d · %2$d cliente(s)</string>
+    <string name="notification_stopped">Proxy detenido</string>
+    <string name="notification_error">Error: %1$s</string>
+</resources>

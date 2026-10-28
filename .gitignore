@@ -1,0 +1,34 @@
+# Ignorar artefactos de build de Android/Gradle
+.gradle/
+.kotlin/
+build/
+*/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.hprof
+
+# Firma / secretos y temporales
+*.jks
+*.keystore
+keystore.properties
+*.log
+*.tmp
+*.orig
+*.rej
+
+# Python (implementación de referencia)
+venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
